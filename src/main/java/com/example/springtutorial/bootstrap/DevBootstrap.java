@@ -27,7 +27,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
     initData();
   }
 
-  private void initData(){
+  private void initData() {
 
     Publisher publisher = new Publisher();
     publisher.setName("foo");
